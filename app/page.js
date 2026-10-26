@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { ShoppingCart, Phone, X, CheckCircle2, Plus, Minus, Trash2, Eye, Search, ArrowUp, MapPin, Mail } from "lucide-react";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 import { useState, useEffect, useMemo } from "react";
 
 export default function MishronLandingPage() {
@@ -282,7 +282,7 @@ export default function MishronLandingPage() {
         ========================================= */}
         <motion.div id="about" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="max-w-7xl mx-auto pb-20 md:pb-24 px-4">
           <div className="bg-white rounded-3xl shadow-lg border border-green-100 p-6 md:p-16 flex flex-col items-center text-center max-w-4xl mx-auto">
-            <div className="inline-block bg-green-100 text-green-800 font-bold px-5 py-2 rounded-full text-sm tracking-wide mb-6">
+            <div className="inline-block bg-green-100 text-green-800 font-bold px-5 py-2 rounded-full text-3xl tracking-wide mb-6">
               About Us
             </div>
             <h2 className="text-2xl md:text-4xl font-bold text-gray-800 leading-tight mb-6">
@@ -301,7 +301,7 @@ export default function MishronLandingPage() {
       {/* =========================================
           Footer Section (Compact Design)
       ========================================= */}
-      <footer className="bg-[#115e35] text-white pt-10 pb-6 mt-auto border-t-4 border-orange-500">
+      <footer className="bg-[#115e35] text-white pt-3 pb-6 mt-auto border-t-4">
         <div className="max-w-md mx-auto px-6 flex flex-col items-center text-center space-y-5">
 
           {/* Logo & Brand Name */}
@@ -331,6 +331,7 @@ export default function MishronLandingPage() {
             <a href="https://facebook.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaFacebook className="w-4 h-4" /></a>
             <a href="https://instagram.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaInstagram className="w-4 h-4" /></a>
             <a href="https://YouTube.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaYoutube className="w-4 h-4" /></a>
+            <a href="https://TikTok.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaTiktok className="w-4 h-4" /></a>
           </div>
 
           {/* Thin Divider */}
