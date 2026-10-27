@@ -168,7 +168,7 @@ export default function MishronLandingPage() {
 
           {/* Logo (Left) */}
           <div className="flex items-center cursor-pointer shrink-0" onClick={(e) => scrollToSection(e, 'home')}>
-            <img src="/ChatGPT Image Aug 1, 2026, 09_35_08 AM.png" alt="Mishron Logo" className="h-10 md:h-16 w-auto object-contain" />
+            <img src="/ChatGPT Image Aug 1, 2026, 09_35_08 AM.png" alt="Mishron Logo" className="h-16 md:h-24 w-auto object-contain" />
           </div>
 
           {/* Search Bar (Center, Flex-1 ensures it takes available space) */}
@@ -200,7 +200,7 @@ export default function MishronLandingPage() {
 
           {/* Cart Icon (Right) */}
           <div className="flex items-center shrink-0">
-            <div className="relative cursor-pointer bg-green-50 p-2.5 md:p-3.5 rounded-full hover:bg-green-100 transition shadow-sm border border-green-200" onClick={() => setIsCartOpen(true)}>
+            <div className="relative cursor-pointer bg-green-50 p-3.5 md:p-5 rounded-full hover:bg-green-100 transition shadow-sm border border-green-200" onClick={() => setIsCartOpen(true)}>
               <ShoppingCart className="text-green-700 w-5 h-5 md:w-6 md:h-6" />
               {isClient && cartCount > 0 && (
                 <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} className="absolute -top-1 -right-1 bg-orange-500 text-white text-xs md:text-sm font-bold w-5 h-5 md:w-6 md:h-6 flex items-center justify-center rounded-full">
@@ -282,17 +282,17 @@ export default function MishronLandingPage() {
         ========================================= */}
         <motion.div id="about" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="max-w-7xl mx-auto pb-20 md:pb-24 px-4">
           <div className="bg-white rounded-3xl shadow-lg border border-green-100 p-6 md:p-16 flex flex-col items-center text-center max-w-4xl mx-auto">
-            <div className="inline-block bg-green-100 text-green-800 font-bold px-5 py-2 rounded-full text-3xl tracking-wide mb-6">
+            <div className="inline-block bg-green-100 text-green-800 font-bold px-5 py-2 rounded-full text-xl tracking-wide mb-6">
               About Us
             </div>
             <h2 className="text-2xl md:text-4xl font-bold text-gray-800 leading-tight mb-6">
-              মিশ্রণ একটি অথেনটিক অনলাইন আড়ৎ।
+              মিশ্রণ একটি অর্থেন্টিক অনলাইন আড়ৎ।
             </h2>
             <p className="text-gray-600 leading-relaxed font-medium text-base md:text-lg mb-4">
               যা প্রান্তিক থেকে শহরের সব মানুষের খাবারের মান ও গুনাগুন ঠিক রাখে।
             </p>
             <p className="text-green-700 font-bold text-xl md:text-2xl mt-4">
-              মিশ্রন আপনার সুস্থ জীবনের সঙ্গী।
+              মিশ্রণ আপনার সুস্থ জীবনের সঙ্গী।
             </p>
           </div>
         </motion.div>
@@ -306,7 +306,7 @@ export default function MishronLandingPage() {
 
           {/* Logo & Brand Name */}
           <div className="flex flex-col items-center mb-2">
-            <img src="/ChatGPT Image Aug 1, 2026, 09_35_08 AM.png" alt="Mishron Logo" className="h-12 w-auto object-contain mb-2 brightness-0 invert" />
+            <img src="/ChatGPT Image Aug 1, 2026, 09_35_08 AM.png" alt="Mishron Logo" className="h-24 w-auto object-contain mb-2 brightness-0 invert" />
             <h3 className="text-2xl font-bold tracking-wide">মিশ্রণ (Mishron)</h3>
           </div>
 
@@ -330,8 +330,8 @@ export default function MishronLandingPage() {
           <div className="flex gap-4 pt-2">
             <a href="https://facebook.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaFacebook className="w-4 h-4" /></a>
             <a href="https://instagram.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaInstagram className="w-4 h-4" /></a>
-            <a href="https://YouTube.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaYoutube className="w-4 h-4" /></a>
-            <a href="https://TikTok.com/mishronbd" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaTiktok className="w-4 h-4" /></a>
+            <a href="https://youtube.com/@mishronbd?si=J82rJJFnIRilo-c7" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaYoutube className="w-4 h-4" /></a>
+            <a href="https://www.tiktok.com/@mishronbd?_r=1&_t=ZS-9Atv1upuwGS" target="_blank" rel="noreferrer" className="bg-[#0f4d2a] p-2 rounded-full hover:bg-orange-500 transition-colors"><FaTiktok className="w-4 h-4" /></a>
           </div>
 
           {/* Thin Divider */}
